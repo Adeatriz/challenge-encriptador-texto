@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <img class="header__logo"src="imagenes/Logo.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+                <div class="left">
+                    <textarea id="IngresoTexto"
+                    class="ingreso__texto" placeholder="Ingrese el texto aquí"></textarea>
+                    <div class="container__botones">
+                        <span class="left__info">
+                        <img src="imagenes/bi_exclamation-circle-fill.png" alt="">
+                        Solo letras minúsculas y sin acento</span>
+                        <div class="left__botones">
+                            <button id="BotonEncriptar"
+                            class="boton__encriptar">Encriptar</button>
+                            <button id="BotonDesencriptar"
+                            class="boton__desencriptar">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="Rigth"
+                    class="rigth">
+                    <img id="Munheco"
+                    class="munheco" src="imagenes/Muñeco.png" alt="">
+                    <textarea id="MensajeFinal"
+                    class="mensaje__final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="RigthInfo"
+                    class="rigth__info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button id="BotonCopiar"
+                    class="boton__copiar bn__ocultar">Copiar</button>
+                </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h4>Desarrollado por Lida Arguello</h4> 
+        <p>Agosto, 2024</p>
+    </footer>
+    <script src="./script.js"></script>    
+</body>
+</html>
