@@ -29,3 +29,7 @@ El resultado se muestra en la pantalla del muñeco.
 - La letra "o" es convertida para "ober".
   
 - La letra "u" es convertida para "ufat".
+
+<h3> Prueba funcionamiento: </h3>
+
+https://adeatriz.github.io/challenge-encriptador-texto/
